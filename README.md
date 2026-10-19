@@ -75,6 +75,8 @@ pipeline then trains and saves it. Training logs/checkpoints are written to
 ## With more time
 
 I would add a baseline comparison and calibrate the accuracy threshold against
-an agreed quality target. I would also pin immutable model and dataset revisions
-and capture dependency versions in a lockfile so the provenance record supports
-stronger reproduction.
+an agreed quality target. 
+
+I would also do some additional hyperparameter tuning for the best results (LoRA Config)
+
+I would also investigate better usages of data to improve the results of the model (Data Augmentation, Synthetic Data Generation etc)
